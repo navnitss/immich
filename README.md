@@ -124,3 +124,7 @@ Read more about translations [here](https://docs.immich.app/developer/translatio
 <a href="https://github.com/immich-app/immich/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=immich-app/immich" width="100%"/>
 </a>
+
+### Running background agents
+
+Automated or background coding agents working in this repository should first read the root [`AGENTS.md`](AGENTS.md) and the `AGENTS.md` of any folder they change. Run every build, lint, test and codegen task through mise (`mise tasks ls --all` lists them), and never hand-edit generated files. A human contributor remains responsible for, and must be able to explain, every change an agent produces (see [`CONTRIBUTING.md`](CONTRIBUTING.md)).
